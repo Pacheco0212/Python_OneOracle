@@ -11,14 +11,16 @@ print("  Adivina el numero")
 print("**********************")
 
 secret_number = 55
-attempts = 3
-attempt = 1
 
-while(attempts >= attempt):
+for attempt in range(1,4):
+    
     #print("Intenton {} de {}".format(attempt, attempts))
-    print(f"Intento {attempt} de {attempts}")
+    print(f"Intento {attempt} de 3")
     input_str = input("Digita un numero: ")
     input_number = int(input_str)
+    if input_number < 1 or input_number > 100:
+        print("Digita un número mayor que 0 o menor igual a 100.")
+        continue
     print("El número que digitaste: ", input_number)
     
     acerto = secret_number == input_number
@@ -27,12 +29,11 @@ while(attempts >= attempt):
     
     if(acerto):
         print("¡Acertaste!")
-        attempt = 3
+        break
     else:
         if(mayor):
           print("El número no corresponde! El número que ingresaste es mayor.")  
         elif(menor):
             print("El número no corresponde! El número que ingresaste es menor.")
-    attempt += 1
         
 print("El juego ha concluído!")
