@@ -37,7 +37,7 @@
 >>
 >> **Random** isn't a built-in function in Python, so we need to import it.
 >> 
->> We can use it to generate a random number ussing `random()` between zero and one, such as between 0 and 100, and we can use `round()` to round a number
+>> We can use it to generate a random number using `random()` between zero and one, such as between 0 and 100, and we can use `round()` to round a number
 >>
 >>```python
 >> import random
