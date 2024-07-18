@@ -60,3 +60,4 @@
 >> In[1]: 85
 >>```
 >>
+>> :memo: **Note:** we can use `abs()` to get the absolute value.
