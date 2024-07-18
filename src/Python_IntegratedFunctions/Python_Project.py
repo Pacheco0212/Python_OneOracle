@@ -6,12 +6,17 @@ Created on Tue Jul 16 21:31:42 2024
 """
 
 #Python project
+#Built-in Functions
+
+import random
 
 print("**********************")
 print("  Adivina el numero")
 print("**********************")
 
-secret_number = 55
+#secret_number = round(random.random()*100)
+secret_number = random.randint(1, 100)
+print(secret_number)
 
 for attempt in range(1,4):
     

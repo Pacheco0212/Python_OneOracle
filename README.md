@@ -32,3 +32,31 @@
 >>```bash
 >> In[1]: Fecha 16/07/2024
 >>```
+
+>> ### Class: Random Function
+>>
+>> **Random** isn't a built-in function in Python, so we need to import it.
+>> 
+>> We can use it to generate a random number ussing `random()` between zero and one, such as between 0 and 100, and we can use `round()` to round a number
+>>
+>>```python
+>> import random
+>>
+>> randNumber = random.random()
+>> randNumber_2 = random.random() *  100
+>> roundNumber = round(randNumber_2)
+>>```
+>>```bash
+>> In[1]: 0.19117567147752912
+>> In[2]: 48.71476823037345
+>> In[3]: 49
+>>```   
+>> We can use the `randint()` function of the module `random` to generate a random number within a range.
+>>
+>>```python
+>> number = random.randint(1,100)
+>>```
+>>```bash
+>> In[1]: 85
+>>```
+>>
