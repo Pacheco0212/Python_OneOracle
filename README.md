@@ -63,4 +63,7 @@
 >> :memo: **Note:** we can use `abs()` to get the absolute value.
 >>
 
-> ### Course:  
+> ### Course: Going forward in the language
+>> ### Class: 
+>>
+>>
