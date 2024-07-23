@@ -3,7 +3,7 @@
 
 
 > ### Course. Python: incorporated functions
->> #### Class: Format Function
+>> ### Class: Format Function
 >>
 >> We can use the "**Format**" in the following ways.
 >>
@@ -61,3 +61,6 @@
 >>```
 >>
 >> :memo: **Note:** we can use `abs()` to get the absolute value.
+>>
+
+> ### Course:  
